@@ -9,7 +9,7 @@ class ProfilesAdminPage extends StatelessWidget {
   final Function deleteProfile;
   final List<Map<String,dynamic>> profiles;
 
-  ProfilesAdminPage(this.addProfile, this.updateProfile, this.deleteProfile);
+  ProfilesAdminPage(this.addProfile, this.updateProfile, this.deleteProfile, this.profiles);
 
   Widget _buildSideDrawer(BuildContext context) {
     return Drawer(

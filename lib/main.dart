@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
         '/': (BuildContext context) => AuthPage(),
         '/profiles': (BuildContext context) => ProfilesPage(_profiles),
         '/admin': (BuildContext context) =>
-            ProfilesAdminPage(_addProfile, _updateProfile, _deleteProfile),
+            ProfilesAdminPage(_addProfile, _updateProfile, _deleteProfile, _profiles),
       },
       onGenerateRoute: (RouteSettings settings) {
         final List<String> pathElements = settings.name.split('/');

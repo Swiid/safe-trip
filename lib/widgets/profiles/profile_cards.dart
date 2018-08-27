@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import './address_tag.dart';
 import '../ui_elements/title_default.dart';
 
 class ProfileCards extends StatelessWidget {
